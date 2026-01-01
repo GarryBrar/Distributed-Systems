@@ -1,5 +1,4 @@
----
-
+# Introduction to D.S 
 ---
 
 > "A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable."
@@ -29,19 +28,18 @@ The performance of an application represents how efficiently it can handle load,
 Performance is typically measured in terms of throughput and response time.
 	- *Throughput* is the number of requests processed per second by the application.
 	- *Response Time* is the the time elapsed in seconds between sending a request to the application, and receiving a response.
-
-Eventually, applications will reach their *capacity*, and the performance will either degrade or plateau, as shown in the figure below. 
-
-![[Pasted image 20260101053717.png|center|350x300]]
+	
+Eventually, applications will reach their *capacity*, and the performance will either degrade or plateau.
 
 ### 1.4) Resiliency
 Resiliency is measured on how well an application can perform while failures happen. 
 
 This is often measured in *Availability*, which is the ratio defined as the amount of time the application can serve requests (*uptime*) divided by the total time measured (*uptime* plus *downtime*).
 
-See the chart below to see how Availability is often described with nines. 
-
-![[Pasted image 20260101054534.png|center|400x200]]
+Availability is often discussed with 'nines'.
+	- 90% ("one nine")
+	- 99.9% ("three nine")
+	- 99.999% ("five nine")
 
 ### 1.5) Maintainability
 
